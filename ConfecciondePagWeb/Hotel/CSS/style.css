@@ -1,0 +1,75 @@
+table {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+}
+
+.TitlePageCenter{
+  color: rgb(104, 136, 188);
+  font-family: Brush Script MT;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.TitlePageLeft{
+  color: rgb(104, 136, 188);
+  font-family: Brush Script MT;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+.SubTitleContent {
+  color: rgb(104, 0, 106);
+  font-family: Brush Script MT;
+  font-size: 25px;
+  text-align: center;
+  width: 5%;
+  
+}
+
+.ContentLetterStyle {
+  color: rgb(104, 0, 106);
+  font-family: Snell Roundhand;
+  font-size: 17px;
+  text-align: justify;
+  width: 5%;
+}
+
+.imgHab {
+  width: 20%;
+  align-items: center;
+  align-content: center;
+  min-width: 200px;
+  max-width: 230px;
+}
+
+
+
+.tableOpinion {
+  
+  table-layout: center;
+  width: 100%;
+  
+}
+
+.tableOpinion tr:nth-child(odd) {
+  background: rgb(253, 176, 191);
+}
+
+.tableOpinion tr:first-child {
+  text-align: center;
+  font-family: Brush Script MT;
+  font-size: 20px;
+}
+
+.tableOpinion td:not(:first-child) {
+  text-align: center;
+}
+
+.tableOpinion td:first-child {
+  font-family: cursive;
+  font-size: 90%;
+}
