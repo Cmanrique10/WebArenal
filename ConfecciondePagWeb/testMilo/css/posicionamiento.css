@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    height: 100vw;/*hacemos esto para forzar, no es recomendable para enmaquetar*/
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border: solid 2px rgb(255, 0, 0);
+    width: 100%;
+    height: 20%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: red;
+    top: 0;
+    overflow: scroll;
+    position: relative;
+}
+
+.comun{
+    overflow: scroll;
+    width: 25%;
+    height: 70%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+div.div1{
+    border: solid blue 2px;
+    top: 0;
+    left: 0;
+    background-color: blue;
+
+}
+
+div.div2{
+    border: solid 2px skyblue;
+    top:-70.0%;
+    left: 25%;
+    background-color: skyblue;
+}
+
+div.div3{
+    border: solid 2px green;
+    top:-140.0%;
+    left: 50%;
+    background-color: green;
+}
+
+div.div4{
+    border: solid 2px yellow;
+    top: -210.0%;
+    left: 75%;
+    background-color: yellow;
+}
+
+footer{
+    border: solid 2px rgb(255, 166, 0);
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top: -210.0%;
+    left: 0;
+    box-sizing: border-box;
+    background-color: orange;
+    overflow: scroll;
+}

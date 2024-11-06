@@ -1,0 +1,18 @@
+div{
+    border: solid 2px red;
+    text-align: center;
+    width: 500px; height: 600px;
+    margin: 0 auto;
+}
+
+img {
+    content:url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg");
+    width: 400px;   
+    vertical-align: middle;
+    border: solid green 2px;
+}
+
+a {
+    border: solid blue 2px;
+    
+}
