@@ -1,0 +1,49 @@
+body{
+    padding-left: 5%;
+}
+.logo{
+    border: solid 2px blue;
+    border-radius: 15px;
+}
+
+h2 li::marker{
+    color: orange;
+}
+h2{
+    width: 500px;
+    background-color: rgb(248, 231, 206);
+    color: rgb(123, 0, 2);
+    text-align: center;
+    margin: auto;
+
+}
+
+.parial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(37, 62, 103);
+}
+.parial span{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.listas{
+    color: rgb(123, 0, 2);
+}
+
+.divSiguenos{
+    color: purple;
+}
+
+.politica{
+    color: blue;
+    font-weight: bold;
+}
+
+
+.film{
+    width: 30px;
+}

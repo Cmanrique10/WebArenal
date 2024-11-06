@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.fonttest{
+    font-size: 30px;
+    font-family: Oxanium;
+}
+
+@font-face {
+    font-family: 'Aubange Belgium Regular';
+    src: url('fuentes/Aubange\ Belgium\ Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Ballons';
+    src: url('fuentes/Ballons.woff2') format('woff2');
+}
+
+.fontdescargado {
+    font-family: 'Aubange Belgium Regular';
+}
+
+.fontdescargado2 {
+    font-family: 'Ballons';
+    font-size: 40px;
+}
+
+
+
+
+.parrafos4{
+    line-height: 70px;
+    font-size: 40px;
+    color:darkred;
+    background-color: orange;
+    text-shadow: 1px 2px 4px red;
+
+}
+
+span.sub {
+    vertical-align: sub;
+    font-size:10px;
+}
+span.super{
+    vertical-align: super;
+    font-size:10px;
+}
